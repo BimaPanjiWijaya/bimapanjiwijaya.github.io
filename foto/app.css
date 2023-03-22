@@ -1,0 +1,111 @@
+
+
+nav{
+    background-color: #ab06ed;
+}
+body{
+    background:linear-gradient(#ab06ed 0%, #f108c2 50%, #b809f2 100%);
+}
+
+.Profile h2 {
+    color: cornsilk;
+    transform: translateY(20px);
+}
+.Profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 200px;
+    
+}
+.profileimage {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: white;
+}
+.Profile h4{
+    color: cornsilk;
+    transform: translateY(10px);
+}
+.about{
+    background:linear-gradient(#fefefe 0%, #f27bdab4 50%, #c086d300 100%);
+    padding-bottom: 200px;
+    padding-top: 50px;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.inf{
+padding-left: 50px;
+padding-right: 50px;
+}
+.Skills{
+    background:linear-gradient(#fefefe 0%, #f27bdab4 50%, #c086d300 100%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    padding-bottom: 200px; 
+    padding-top: 50px;
+}
+.Project{
+    background:linear-gradient(#fefefe 0%, #f27bdab4 50%, #c086d300 100%);
+    padding-bottom: 200px;
+    padding-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+.Contact{
+    background-color: white;
+    padding-bottom: 20px;
+}
+.Contact a{
+    color: #ab06ed;
+    font-size: 40px;
+}
+.Contact p{
+    font-size: 20px;
+}
+.watermark{
+    padding-top: 10px;
+}
+.wha {
+    padding-left: 20px;
+}
+.lin{
+    padding-left: 20px;
+}
+.ins{
+    padding-left: 20px;
+}
+.mail{
+    padding-left: 20px;
+}
+.git{
+    padding-left: 20px;
+}
+.kag{
+    padding-left: 20px;
+}
+
+/*respon*/
+@media (max-width: 1024px) {
+    .about.inf{
+        order: inherit;
+    }
+}
+
+@media (max-width: 768px) {
+    .about.inf{
+        order: inherit;
+    }
+}
+
+@media (max-width: 550px) {
+        .about.inf{
+        order: inherit;
+    }
+}
